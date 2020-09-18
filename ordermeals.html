@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>iProfile</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <div id="navcontainer">
+               <ul id="navlist">
+          <li><a href="index.html">Home</a></li>        <li><a href="meals.html">Meals Delivery</a></li>
+          <li><a href="grocery.html">Grocery Delivery</a></li>
+          <li><a href="ordermeals.html">Order Meals </a></li>
+          <li><a href="ordergrocery.html">Order Grocery</a></li>
+           <li><a href="fooddonation.html">Food Donation</a></li>
+
+          </ul>
+          </div>
+
+		<div style="float: right; padding-right:50px; color: white; display:none; font-weight: bold; text-decoration:underline; font-size: 20px" id="divCurrentUser">
+  		</div>  
+     <div> <h1>Meals4Less</h1>
+         <img src="images/virtualfood.jpg">
+<form action="/index.html" method="post">
+ <ul>
+  <li>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name">
+  </li>
+  <li>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_email">
+  </li>
+  <li>
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="user_address">
+  </li>
+   <li>
+    <label for="city">City:</label>
+    <input type="text" id="city" name="user_city">
+  </li>
+   <li>
+    <label for="state">State:</label>
+    <input type="text" id="state" name="user_state">
+  </li>
+   <li>
+    <label for="zipcode">Zip Code:</label>
+    <input type="text" id="zipcode" name="user_zipcode">
+  </li>
+   <li>
+    <label for="cardtype">Credit Card:</label>
+    <input type="radio" id="visa" name="user_cardtype"> Visa 
+     <input type="radio" id="mastercard" name="user_cardtype"> Master Card
+       <input type="radio" id="americanexpress" name="user_cardtype"> American Express
+       </li>
+
+   <li>
+    <label for="cardnumber">Card Number:</label>
+    <input type="text" id="cardnumber" name="user_cardnumber">
+  </li>
+  <li>
+    <label for="food1">Food1:</label>
+    <input type="text" id="food1" name="user_food1">
+  </li>
+<li class="button">
+  <button type="submit"> Place Order</button>
+</li> </ul>
+</form>
+     </div>
+  </body>
+  </html>

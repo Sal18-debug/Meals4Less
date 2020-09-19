@@ -8,7 +8,7 @@
   </head>
   <body>
 
-    <div id="navcontainer">
+   <div id="navcontainer">
                <ul id="navlist">
           <li><a href="index.html">Home</a></li>        <li><a href="meals.html">Meals Items</a></li>
           <li><a href="grocery.html">Grocery Items</a></li>
@@ -19,10 +19,16 @@
           </ul>
           </div>
 
+   
+
 		<div style="float: right; padding-right:50px; color: white; display:none; font-weight: bold; text-decoration:underline; font-size: 20px" id="divCurrentUser">
   		</div>  
-     <div> <h1>Order Meals</h1>
-         <img src="Meals4Less.jpg">
+
+        <img src="Meals4Less.jpg"></img>
+      
+     <div> <h1>Order Grocery</h1></div>
+   
+        
 <form action="/index.html" method="post">
  <ul>
   <li>
@@ -61,8 +67,11 @@
     <input type="text" id="cardnumber" name="user_cardnumber">
   </li>
   <li>
-    <label for="food1">Pizza:</label>
+    <label for="food1">Oranges:</label>
     <input type="text" id="food1" name="user_food1">
+
+   <label for="pounds">Pounds:</label>
+    <input type="text" id="pounds" name="use_pounds">
   </li>
 <li class="button">
   <button type="submit"> Place Order</button>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Order Food</title>
+	<link href="orderfood.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+	 crossorigin="anonymous">
+	<div class="container-fluid">
+
+		<div id="main" class="row">
+
+			<!-- Start Section Header Bar -->
+			<section id="meal_nav">
+				<div class="menu_icon">
+					<i class="fa fa-sliders"></i>
+      </div>
+      <div class="menu">
+        <ul>
+          <li>Donate</li>
+          <li>Groceries</li>
+          <li class="active">Order Food</li>
+        </ul>
+      </div>
+      <div class="menu_filter">
+        <i class="fa fa-cog"></i>
+      </div>
+    </section>
+    <!-- End Section Header Bar -->
+
+    <!-- Start Section Header Bar -->
+    <section id="meal_header_bar" class="col-12">
+      <div class="row">
+        <div class="col-12">
+          <span>Good Food Delivered Home!</span><br>Order Now
+        </div>
+      </div>
+      <div class="row meal_search_row">
+        <div class="col-12">
+          <i class="fa fa-search"></i>
+          <input type="text" class="meal_ip_search" placeholder="Search Pasta...">
+        </div>
+      </div>
+    </section>
+    <section id="meal_product_tile" class="col-12">
+
+      <div class="row meal_product_row">
+        <div class="col-9">
+          <div class="product_tile active">
+            <img src="https://i.ibb.co/HNP7NJ2/f12.jpg" alt="" class="meal_product_img">
+            <span class="product_name">Pasta Salad</span>
+            <span class="product_detail">Pasta, vinegar, oil, 8 oz mozzarella cheese, cut into 1/2-inch cubes, and mayonnaise ..</span>
+            <ul id="meal_a">
+              <li>
+                Calorie
+                <span>725 CAL</span>
+              </li>
+              <li>
+                Price
+                <span><i class="fa fa-usd"></i> 30</span>
+              </li>
+            </ul>
+            <a href="ordermeals.html">
+            <button type="button" class="btn btn-sm">Order Now</button></a>
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="product_tile">
+            <img src="https://i.ibb.co/gd1X8kT/f11.jpg" alt="" class="meal_product_img">
+            <span class="product_name">Zero Waste Sandwich</span>
+            <span class="product_detail">A proper convenience food with Chicken, Egg and cress, bacon, lettuce and tomato..</span>
+            <ul id="meal_a">
+              <li>
+                Calorie
+                <span>690 CAL</span>
+              </li>
+              <li>
+                Price
+                <span><i class="fa fa-usd"></i> 42</span>
+              </li>
+            </ul>
+            <a href="ordermeals.html">
+            <button type="button" class="btn btn-sm btn-default">Order Now</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="meal_section_product_tile col-12">
+      <div class="row meal_title_row">
+        <div class="col-12">
+          Other suggestions
+        </div>
+      </div>
+      <div class="row meal_section_row">
+        <div class="section_product_tile row col-10">
+          <div class="col-4 justify-content-center align-self-center">
+           <img src="https://i.ibb.co/4gfDpVK/f13.jpg" alt="">
+          </div>
+          <div class="col-6 justify-content-center align-self-center section_meta">
+            <span class="product_title">Ultimate Veggie Burger</span>
+            <span class="product_rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half"></i>
+                                    <span class="rating_avg">(4.7)</span>
+            </span>
+            <span class="product_price">
+                                    <i class="fa fa-usd"></i> 25
+                                </span>
+          </div>
+        </div>
+        <div class="section_product_tile row col-10">
+          <div class="col-4 justify-content-center align-self-center">
+            <img src="https://i.ibb.co/XYVbB1z/f14.jpg" alt="">
+          </div>
+          <div class="col-6 justify-content-center align-self-center section_meta">
+            <span class="product_title">Southern fried chicken</span>
+            <span class="product_rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <span class="rating_avg">(4.9)</span>
+            </span>
+            <span class="product_price">
+                                    <i class="fa fa-usd"></i> 36
+                                </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="meal_section_product_tile col-12">
+      <div class="row meal_title_row">
+        <div class="col-12">
+         Groceries you might consider buying
+        </div>
+      </div>
+      <div class="row meal_section_row">
+        <div class="section_product_tile row col-10">
+          <div class="col-4 justify-content-center align-self-center">
+            <img src="https://i.ibb.co/8DnHwzn/f21.webp" alt="f21" border="0">
+          </div>
+          <div class="col-6 justify-content-center align-self-center section_meta">
+            <span class="product_title">Chobani Greek Yogurt Pk Of. 6</span>
+            <span class="product_rating">
+                                   
+                                    <span class="recent">450 people bought this</span>
+            </span>
+            <span class="product_price">
+                                    <i class="fa fa-usd"></i> 12
+                                </span>
+          </div>
+        </div>
+        <div class="section_product_tile row col-10">
+          <div class="col-4 justify-content-center align-self-center">
+            <img src="https://i.ibb.co/hWsjvBh/f22.webp" alt="f22" border="0">
+          </div>
+          <div class="col-6 justify-content-center align-self-center section_meta">
+            <span class="product_title">Yogi Tea - Ginger Tea - 16ct</span>
+            <span class="product_rating">
+                                    <span class="recent">210 people bought this</span>
+            </span>
+            <span class="product_price">
+                                    <i class="fa fa-usd"></i> 6
+                                </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+</div>
+  </body>
+  <div>Copyright 2020 Meals4Less</div>
+</html>
